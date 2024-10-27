@@ -19,3 +19,9 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@layer utilities{
+  .wrapper {
+    @apply w-full min-h-screen bg-no-repeat bg-cover bg-fixed bg-center;
+  }
+}
