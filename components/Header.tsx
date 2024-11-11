@@ -47,6 +47,7 @@ export const Header = () => {
         )}
       </div>
         <MobileMenu openMenu={openMenu} setOpenMenu={setOpenMenu} />
+        <div className="absolute top-[48px] h-[1px] bg-white/25 w-[30%] right-[57%] min-[1200px]:right-[48%] min-[1200px]:w-[38%] hidden lg:block"/>
     </header>
   );
 };
