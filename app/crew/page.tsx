@@ -4,7 +4,6 @@ import { PageMark } from "@/components/PageMark";
 import { crews } from "@/constants";
 import { useState } from "react";
 import { bellefair } from "../fonts/font";
-import Image from "next/image"
 
 const CrewPage = () => {
     const [activeCrew, setActiveCrew] = useState<number>(0);
